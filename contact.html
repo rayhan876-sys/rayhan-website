@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Rayhan's Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Light background color */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffffff; /* White background for header */
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #ffffff; /* White background for footer */
+            padding: 10px;
+            text-align: center;
+        }
+        form {
+            display: inline-block;
+            text-align: left;
+        }
+        form input, form textarea {
+            display: block;
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <audio src="downloads/music.mp3" autoplay loop></audio>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+    </nav>
+    <section>
+        <h2>Contact Form</h2>
+        <form action="mailto:rayhan@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    <footer>
+        &copy; 2024 Rayhan. All rights reserved.
+    </footer>
+</body>
+</html>
